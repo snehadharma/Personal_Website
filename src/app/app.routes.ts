@@ -18,7 +18,7 @@ export const routes: Routes = [
         component : ResumeComponent
     }, 
     {
-        path : '', 
+        path : 'home', 
         component : HomeComponent
     }
 

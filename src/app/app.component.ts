@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
+  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, HomeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
