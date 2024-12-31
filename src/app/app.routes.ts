@@ -18,8 +18,9 @@ export const routes: Routes = [
         component : ResumeComponent
     }, 
     {
-        path : 'home', 
+        path : 'home-component', 
         component : HomeComponent
-    }
+    }, 
+    { path: '',   redirectTo: '/home-component', pathMatch: 'full' }, // redirect to `first-component`
 
 ];
