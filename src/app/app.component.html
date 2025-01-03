@@ -3,11 +3,16 @@
 
   </head>
   <body>
-    <div class="topnav">
-      <a routerLink = "/home-component" routerLinkActive="active" ariaCurrentWhenActive="page"  class="active">home</a>
-      <a routerLink = "/projects-component" routerLinkActive="active" ariaCurrentWhenActive="page">my projects</a>
-      <a routerLink = "/resume-component" routerLinkActive="active" ariaCurrentWhenActive="page">resume</a>
-      <a routerLink = "/contact-component" routerLinkActive="active" ariaCurrentWhenActive="page">contact</a>
+    <div class="header">
+      <div class="name">
+        Sneha Dharmalingam
+      </div>
+      <div class="navbar">
+        <a routerLink = "/home-component" routerLinkActive="active" ariaCurrentWhenActive="page"  class="active">home</a>
+        <a routerLink = "/projects-component" routerLinkActive="active" ariaCurrentWhenActive="page">my projects</a>
+        <a routerLink = "/resume-component" routerLinkActive="active" ariaCurrentWhenActive="page">resume</a>
+        <a routerLink = "/contact-component" routerLinkActive="active" ariaCurrentWhenActive="page">contact</a>
+      </div>
     </div>
   </body>
   <router-outlet></router-outlet>

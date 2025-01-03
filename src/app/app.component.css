@@ -1,33 +1,40 @@
-h1 {
-    font-weight: 200;
-    text-align: center;
-    color: white;
+
+
+.header  {
+  background: pink;
+  border: 2px solid black; 
+  border-radius: 20px;
 }
 
-.topnav {
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-  }
+.name {
+  text-align: center;
+  padding: 20px;
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+  font-size: 24px;
+  color: #ff91d6;
+  font-weight: bold;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid black;
+  padding: 10px 0;
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+}
+
+.navbar a {
+  padding-left: 140px;
+  border-left: 2px solid black;
+  padding-right: 140px;
+  border-right: 2px solid black;
+  text-decoration: none;
+  color: #00c8f0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
