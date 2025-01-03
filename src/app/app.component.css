@@ -1,17 +1,14 @@
 
-
 .header  {
-  background: pink;
-  border: 2px solid black; 
+  background: white;
   border-radius: 20px;
 }
 
 .name {
   text-align: center;
   padding: 20px;
-  
-  font-size: 24px;
-  color: #ff91d6;
+  font-size: 4em;
+  color: #feb7fc;
   font-weight: bold;
 }
 
@@ -19,22 +16,23 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  border-top: 2px solid black;
+  border-top: 2px solid #cecfcd;
   padding: 10px 0;
-  
 }
 
 .navbar a {
-  padding-left: 140px;
-  border-left: 2px solid black;
-  padding-right: 140px;
-  border-right: 2px solid black;
+
   text-decoration: none;
-  color: #00c8f0;
-  font-size: 16px;
+  color: #54e4ed;
+  font-size: 1em;
   font-weight: bold;
 }
 
 .navbar a:hover {
   text-decoration: underline;
+  color:#000ff0;
+
+}
+.navbar a.active {
+  color: #000ff0;
 }

@@ -1,0 +1,8 @@
+.sections {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+.main_section {
+    background-color: blueviolet;
+}
