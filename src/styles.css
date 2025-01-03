@@ -13,4 +13,10 @@ body {
     font-family: "Jersey 10", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+:root {
+--primary-color: #000ff0;
+--secondary-color: #feb7fc;
+--accent-color: #e8e7fa;
+--shadow-color: #E8E8E8;
+}

@@ -1,19 +1,8 @@
-.sections {
-    background-color: aliceblue;
-    display: flex;
-    justify-content: space-around;
-}
-.main_section {
-    background-color: blueviolet;
-}
-* {
-    
-}
 body { 
     margin: 18px 30px;
 }
 .main  {
-    background: white;
+    background-color: red;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     justify-content: center;
@@ -26,4 +15,5 @@ body {
     margin: 0px 0px;
     font-size: 30px;
     text-align: center;
+    text-shadow:  2px 2px 5px gray;
 }

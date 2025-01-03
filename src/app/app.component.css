@@ -9,7 +9,7 @@
   text-align: center;
   padding: 20px;
   font-size: 4em;
-  color: #feb7fc;
+  color: var(--secondary-color);
   font-weight: bold;
 }
 
@@ -25,17 +25,17 @@
 .navbar a {
 
   text-decoration: none;
-  color: #54e4ed;
+  color: var(--primary-color);
   font-size: 1em;
   font-weight: bold;
 }
 
 .navbar a:hover {
   text-decoration: underline;
-  color:#000ff0;
+  color:var(--secondary-color);
 
 }
 .navbar a.active {
-  color: #000ff0;
+  color: var(--secondary-color);
   text-decoration: underline;
 }
