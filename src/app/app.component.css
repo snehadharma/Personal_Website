@@ -1,9 +1,7 @@
 
 
 .header  {
-  background: white;
-  border: 2px solid #cecfcd;
-  border-radius: 20px;
+  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -12,24 +10,26 @@
   padding: 20px;
   font-size: 4em;
   color: var(--secondary-color);
-  font-weight: bold;
+  font-weight: 400;
 }
 
 
 .navbar {
+  background: black;
+  border: 1px solid white;
+  border-radius: 40px;
   display: flex;
   justify-content: space-around;
-  border-top: 2px solid #cecfcd;
-  padding: 10px 0;
+  padding: 20px 20px;
+  margin: 2% 30%;
   
 }
 
 .navbar a {
-
   text-decoration: none;
-  color: var(--primary-color);
-  font-size: 1em;
-  font-weight: bold;
+  color: white;
+  font-size: 0.75em;
+  font-weight: 400;
 }
 
 .navbar a:hover {
